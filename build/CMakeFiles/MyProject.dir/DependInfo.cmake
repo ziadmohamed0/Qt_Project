@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/Cities/cities.cpp" "CMakeFiles/MyProject.dir/Cities/cities.cpp.o" "gcc" "CMakeFiles/MyProject.dir/Cities/cities.cpp.o.d"
-  "/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/Curl/Curl.cpp" "CMakeFiles/MyProject.dir/Curl/Curl.cpp.o" "gcc" "CMakeFiles/MyProject.dir/Curl/Curl.cpp.o.d"
-  "/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/Data/Data.cpp" "CMakeFiles/MyProject.dir/Data/Data.cpp.o" "gcc" "CMakeFiles/MyProject.dir/Data/Data.cpp.o.d"
-  "/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/Rapidjison/Rapidjison.cpp" "CMakeFiles/MyProject.dir/Rapidjison/Rapidjison.cpp.o" "gcc" "CMakeFiles/MyProject.dir/Rapidjison/Rapidjison.cpp.o.d"
-  "/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/main.cpp" "CMakeFiles/MyProject.dir/main.cpp.o" "gcc" "CMakeFiles/MyProject.dir/main.cpp.o.d"
+  "/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/Cities/cities.cpp" "CMakeFiles/MyProject.dir/Cities/cities.cpp.o" "gcc" "CMakeFiles/MyProject.dir/Cities/cities.cpp.o.d"
+  "/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/Curl/Curl.cpp" "CMakeFiles/MyProject.dir/Curl/Curl.cpp.o" "gcc" "CMakeFiles/MyProject.dir/Curl/Curl.cpp.o.d"
+  "/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/Data/Data.cpp" "CMakeFiles/MyProject.dir/Data/Data.cpp.o" "gcc" "CMakeFiles/MyProject.dir/Data/Data.cpp.o.d"
+  "/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/Rapidjison/Rapidjison.cpp" "CMakeFiles/MyProject.dir/Rapidjison/Rapidjison.cpp.o" "gcc" "CMakeFiles/MyProject.dir/Rapidjison/Rapidjison.cpp.o.d"
+  "/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/main.cpp" "CMakeFiles/MyProject.dir/main.cpp.o" "gcc" "CMakeFiles/MyProject.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.

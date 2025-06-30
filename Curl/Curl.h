@@ -13,6 +13,8 @@ class Curl : public CurlAbstract {
         Curl_Status Curl_Perform() override;
         ~Curl();
     private:
+        std::string url, lat, lon;
+        DataAbstract *DA;
 };
 
 #endif

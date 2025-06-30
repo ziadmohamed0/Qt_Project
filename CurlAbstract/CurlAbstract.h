@@ -26,7 +26,7 @@ class CurlAbstract {
         virtual Curl_Status Curl_init() = 0;
         virtual Curl_Status Curl_Setup() = 0;
         virtual Curl_Status Curl_Perform() = 0;
-        CurlAbstract();
+        CurlAbstract() = default;
 
     protected:
         CURL *curl;

@@ -1,8 +1,8 @@
 CMakeFiles/MyProject.dir/Rapidjison/Rapidjison.cpp.o: \
- /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/Rapidjison/Rapidjison.cpp \
+ /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/Rapidjison/Rapidjison.cpp \
  /usr/include/stdc-predef.h \
- /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/Rapidjison/Rapidjison.h \
- /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/Rapidjison/../RapidjsonAbstract/RapidjsonAbstract.h \
+ /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/Rapidjison/Rapidjison.h \
+ /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/Rapidjison/../RapidjsonAbstract/RapidjsonAbstract.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

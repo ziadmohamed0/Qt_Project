@@ -20,7 +20,7 @@ class Data : public DataAbstract {
     public: 
         Data();
         char *GetResponse() override;
-        static size_t write_chunk(void* contents, size_t size_, size_t nmemb, void* userp);
+        size_t write_chunk(void* contents, size_t size_, size_t nmemb, void* userp);
         ~Data();
 };
 

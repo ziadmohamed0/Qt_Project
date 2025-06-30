@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis
+CMAKE_SOURCE_DIR = /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/build
+CMAKE_BINARY_DIR = /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/MyProject.dir/depend.make
@@ -72,72 +72,72 @@ include CMakeFiles/MyProject.dir/flags.make
 CMakeFiles/MyProject.dir/main.cpp.o: CMakeFiles/MyProject.dir/flags.make
 CMakeFiles/MyProject.dir/main.cpp.o: ../main.cpp
 CMakeFiles/MyProject.dir/main.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyProject.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/main.cpp.o -MF CMakeFiles/MyProject.dir/main.cpp.o.d -o CMakeFiles/MyProject.dir/main.cpp.o -c /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyProject.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/main.cpp.o -MF CMakeFiles/MyProject.dir/main.cpp.o.d -o CMakeFiles/MyProject.dir/main.cpp.o -c /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/main.cpp
 
 CMakeFiles/MyProject.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/main.cpp > CMakeFiles/MyProject.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/main.cpp > CMakeFiles/MyProject.dir/main.cpp.i
 
 CMakeFiles/MyProject.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/main.cpp -o CMakeFiles/MyProject.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/main.cpp -o CMakeFiles/MyProject.dir/main.cpp.s
 
 CMakeFiles/MyProject.dir/Cities/cities.cpp.o: CMakeFiles/MyProject.dir/flags.make
 CMakeFiles/MyProject.dir/Cities/cities.cpp.o: ../Cities/cities.cpp
 CMakeFiles/MyProject.dir/Cities/cities.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyProject.dir/Cities/cities.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/Cities/cities.cpp.o -MF CMakeFiles/MyProject.dir/Cities/cities.cpp.o.d -o CMakeFiles/MyProject.dir/Cities/cities.cpp.o -c /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/Cities/cities.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyProject.dir/Cities/cities.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/Cities/cities.cpp.o -MF CMakeFiles/MyProject.dir/Cities/cities.cpp.o.d -o CMakeFiles/MyProject.dir/Cities/cities.cpp.o -c /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/Cities/cities.cpp
 
 CMakeFiles/MyProject.dir/Cities/cities.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/Cities/cities.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/Cities/cities.cpp > CMakeFiles/MyProject.dir/Cities/cities.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/Cities/cities.cpp > CMakeFiles/MyProject.dir/Cities/cities.cpp.i
 
 CMakeFiles/MyProject.dir/Cities/cities.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/Cities/cities.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/Cities/cities.cpp -o CMakeFiles/MyProject.dir/Cities/cities.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/Cities/cities.cpp -o CMakeFiles/MyProject.dir/Cities/cities.cpp.s
 
 CMakeFiles/MyProject.dir/Data/Data.cpp.o: CMakeFiles/MyProject.dir/flags.make
 CMakeFiles/MyProject.dir/Data/Data.cpp.o: ../Data/Data.cpp
 CMakeFiles/MyProject.dir/Data/Data.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MyProject.dir/Data/Data.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/Data/Data.cpp.o -MF CMakeFiles/MyProject.dir/Data/Data.cpp.o.d -o CMakeFiles/MyProject.dir/Data/Data.cpp.o -c /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/Data/Data.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MyProject.dir/Data/Data.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/Data/Data.cpp.o -MF CMakeFiles/MyProject.dir/Data/Data.cpp.o.d -o CMakeFiles/MyProject.dir/Data/Data.cpp.o -c /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/Data/Data.cpp
 
 CMakeFiles/MyProject.dir/Data/Data.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/Data/Data.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/Data/Data.cpp > CMakeFiles/MyProject.dir/Data/Data.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/Data/Data.cpp > CMakeFiles/MyProject.dir/Data/Data.cpp.i
 
 CMakeFiles/MyProject.dir/Data/Data.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/Data/Data.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/Data/Data.cpp -o CMakeFiles/MyProject.dir/Data/Data.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/Data/Data.cpp -o CMakeFiles/MyProject.dir/Data/Data.cpp.s
 
 CMakeFiles/MyProject.dir/Curl/Curl.cpp.o: CMakeFiles/MyProject.dir/flags.make
 CMakeFiles/MyProject.dir/Curl/Curl.cpp.o: ../Curl/Curl.cpp
 CMakeFiles/MyProject.dir/Curl/Curl.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MyProject.dir/Curl/Curl.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/Curl/Curl.cpp.o -MF CMakeFiles/MyProject.dir/Curl/Curl.cpp.o.d -o CMakeFiles/MyProject.dir/Curl/Curl.cpp.o -c /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/Curl/Curl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MyProject.dir/Curl/Curl.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/Curl/Curl.cpp.o -MF CMakeFiles/MyProject.dir/Curl/Curl.cpp.o.d -o CMakeFiles/MyProject.dir/Curl/Curl.cpp.o -c /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/Curl/Curl.cpp
 
 CMakeFiles/MyProject.dir/Curl/Curl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/Curl/Curl.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/Curl/Curl.cpp > CMakeFiles/MyProject.dir/Curl/Curl.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/Curl/Curl.cpp > CMakeFiles/MyProject.dir/Curl/Curl.cpp.i
 
 CMakeFiles/MyProject.dir/Curl/Curl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/Curl/Curl.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/Curl/Curl.cpp -o CMakeFiles/MyProject.dir/Curl/Curl.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/Curl/Curl.cpp -o CMakeFiles/MyProject.dir/Curl/Curl.cpp.s
 
 CMakeFiles/MyProject.dir/Rapidjison/Rapidjison.cpp.o: CMakeFiles/MyProject.dir/flags.make
 CMakeFiles/MyProject.dir/Rapidjison/Rapidjison.cpp.o: ../Rapidjison/Rapidjison.cpp
 CMakeFiles/MyProject.dir/Rapidjison/Rapidjison.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MyProject.dir/Rapidjison/Rapidjison.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/Rapidjison/Rapidjison.cpp.o -MF CMakeFiles/MyProject.dir/Rapidjison/Rapidjison.cpp.o.d -o CMakeFiles/MyProject.dir/Rapidjison/Rapidjison.cpp.o -c /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/Rapidjison/Rapidjison.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MyProject.dir/Rapidjison/Rapidjison.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/Rapidjison/Rapidjison.cpp.o -MF CMakeFiles/MyProject.dir/Rapidjison/Rapidjison.cpp.o.d -o CMakeFiles/MyProject.dir/Rapidjison/Rapidjison.cpp.o -c /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/Rapidjison/Rapidjison.cpp
 
 CMakeFiles/MyProject.dir/Rapidjison/Rapidjison.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/Rapidjison/Rapidjison.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/Rapidjison/Rapidjison.cpp > CMakeFiles/MyProject.dir/Rapidjison/Rapidjison.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/Rapidjison/Rapidjison.cpp > CMakeFiles/MyProject.dir/Rapidjison/Rapidjison.cpp.i
 
 CMakeFiles/MyProject.dir/Rapidjison/Rapidjison.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/Rapidjison/Rapidjison.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/Rapidjison/Rapidjison.cpp -o CMakeFiles/MyProject.dir/Rapidjison/Rapidjison.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/Rapidjison/Rapidjison.cpp -o CMakeFiles/MyProject.dir/Rapidjison/Rapidjison.cpp.s
 
 # Object files for target MyProject
 MyProject_OBJECTS = \
@@ -158,7 +158,7 @@ MyProject: CMakeFiles/MyProject.dir/Rapidjison/Rapidjison.cpp.o
 MyProject: CMakeFiles/MyProject.dir/build.make
 MyProject: /usr/lib/x86_64-linux-gnu/libcurl.so
 MyProject: CMakeFiles/MyProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable MyProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable MyProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MyProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -170,6 +170,6 @@ CMakeFiles/MyProject.dir/clean:
 .PHONY : CMakeFiles/MyProject.dir/clean
 
 CMakeFiles/MyProject.dir/depend:
-	cd /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/build /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/build /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/build/CMakeFiles/MyProject.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/build /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/build /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/build/CMakeFiles/MyProject.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/MyProject.dir/depend
 

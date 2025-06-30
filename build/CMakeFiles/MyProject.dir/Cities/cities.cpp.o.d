@@ -1,7 +1,7 @@
 CMakeFiles/MyProject.dir/Cities/cities.cpp.o: \
- /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/Cities/cities.cpp \
+ /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/Cities/cities.cpp \
  /usr/include/stdc-predef.h \
- /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/Cities/cities.h \
+ /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/Cities/cities.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

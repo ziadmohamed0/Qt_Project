@@ -1,7 +1,7 @@
 CMakeFiles/MyProject.dir/main.cpp.o: \
- /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/main.cpp \
+ /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/main.cpp \
  /usr/include/stdc-predef.h \
- /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/Cities/cities.h \
+ /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/Cities/cities.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -161,11 +161,11 @@ CMakeFiles/MyProject.dir/main.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/Data/Data.h \
- /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/Data/../DataAbstract/DataAbstract.h \
+ /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/Data/Data.h \
+ /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/Data/../DataAbstract/DataAbstract.h \
  /usr/include/c++/11/cstring /usr/include/string.h /usr/include/strings.h \
- /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/Curl/Curl.h \
- /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/Curl/../CurlAbstract/CurlAbstract.h \
+ /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/Curl/Curl.h \
+ /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/Curl/../CurlAbstract/CurlAbstract.h \
  /usr/include/x86_64-linux-gnu/curl/curl.h \
  /usr/include/x86_64-linux-gnu/curl/curlver.h \
  /usr/include/x86_64-linux-gnu/curl/system.h \
@@ -199,9 +199,9 @@ CMakeFiles/MyProject.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/curl/curl.h \
  /usr/include/x86_64-linux-gnu/curl/urlapi.h \
  /usr/include/x86_64-linux-gnu/curl/options.h \
- /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/Curl/../DataAbstract/DataAbstract.h \
- /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/Rapidjison/Rapidjison.h \
- /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/Rapidjison/../RapidjsonAbstract/RapidjsonAbstract.h \
+ /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/Curl/../DataAbstract/DataAbstract.h \
+ /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/Rapidjison/Rapidjison.h \
+ /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/Rapidjison/../RapidjsonAbstract/RapidjsonAbstract.h \
  /usr/local/include/rapidjson/document.h \
  /usr/local/include/rapidjson/reader.h \
  /usr/local/include/rapidjson/allocators.h \

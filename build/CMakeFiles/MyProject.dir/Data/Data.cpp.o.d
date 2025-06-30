@@ -1,8 +1,8 @@
 CMakeFiles/MyProject.dir/Data/Data.cpp.o: \
- /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/Data/Data.cpp \
+ /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/Data/Data.cpp \
  /usr/include/stdc-predef.h \
- /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/Data/Data.h \
- /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/Data/../DataAbstract/DataAbstract.h \
+ /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/Data/Data.h \
+ /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/Data/../DataAbstract/DataAbstract.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

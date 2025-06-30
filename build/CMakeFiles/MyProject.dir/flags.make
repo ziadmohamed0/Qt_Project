@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/Cities -I/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/RapidjsonAbstract -I/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/DataAbstract -I/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/CurlAbstract -I/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/Data -I/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/Curl -I/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/apis/Rapidjison
+CXX_INCLUDES = -I/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/Cities -I/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/RapidjsonAbstract -I/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/DataAbstract -I/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/CurlAbstract -I/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/Data -I/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/Curl -I/home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/Rapidjison
 
 CXX_FLAGS = -std=gnu++17
 

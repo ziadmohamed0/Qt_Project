@@ -418,7 +418,9 @@ CMakeFiles/MyProject.dir/Curl/Curl.cpp.o: ../Curl/Curl.cpp \
   /usr/include/c++/11/bits/basic_ios.tcc \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
-  /usr/include/c++/11/bits/istream.tcc
+  /usr/include/c++/11/bits/istream.tcc \
+  /usr/include/c++/11/sstream \
+  /usr/include/c++/11/bits/sstream.tcc
 
 CMakeFiles/MyProject.dir/Data/Data.cpp.o: ../Data/Data.cpp \
   /usr/include/stdc-predef.h \
@@ -1189,6 +1191,10 @@ CMakeFiles/MyProject.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/bit:
 
+/usr/local/include/rapidjson/internal/diyfp.h:
+
+/usr/include/c++/11/bits/align.h:
+
 /usr/include/c++/11/bits/shared_ptr.h:
 
 /usr/include/c++/11/bits/stl_construct.h:
@@ -1212,6 +1218,10 @@ CMakeFiles/MyProject.dir/main.cpp.o: ../main.cpp \
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
 /usr/include/strings.h:
+
+/usr/include/c++/11/bits/stl_raw_storage_iter.h:
+
+/usr/include/x86_64-linux-gnu/curl/options.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
@@ -1284,6 +1294,8 @@ CMakeFiles/MyProject.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/11/bits/ostream.tcc:
 
 /usr/include/c++/11/climits:
+
+/usr/include/c++/11/bits/sstream.tcc:
 
 /usr/include/c++/11/new:
 
@@ -1643,10 +1655,6 @@ CMakeFiles/MyProject.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/vector:
 
-/usr/local/include/rapidjson/internal/diyfp.h:
-
-/usr/include/c++/11/bits/align.h:
-
 /usr/include/c++/11/bits/stl_uninitialized.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
@@ -1703,6 +1711,8 @@ CMakeFiles/MyProject.dir/main.cpp.o: ../main.cpp \
 
 ../DataAbstract/DataAbstract.h:
 
+/usr/include/c++/11/sstream:
+
 ../Data/Data.cpp:
 
 ../Data/Data.h:
@@ -1730,7 +1740,3 @@ CMakeFiles/MyProject.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/11/cassert:
 
 /usr/include/c++/11/memory:
-
-/usr/include/x86_64-linux-gnu/curl/options.h:
-
-/usr/include/c++/11/bits/stl_raw_storage_iter.h:
