@@ -61,6 +61,11 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "variant": "cpp",
-        "format": "cpp"
+        "format": "cpp",
+        "iterator": "cpp",
+        "numbers": "cpp",
+        "numeric": "cpp",
+        "ranges": "cpp",
+        "cinttypes": "cpp"
     }
 }

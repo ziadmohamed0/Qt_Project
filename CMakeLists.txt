@@ -6,10 +6,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 set(SOURCES
     main.cpp
-    Cities/cities.cpp
     Data/Data.cpp
     Curl/Curl.cpp
-    Rapidjison/Rapidjison.cpp
+    Rapidjson/Rapidjson.cpp
+    Cities/Cities.cpp
 )
 
 find_package(CURL REQUIRED)
@@ -17,13 +17,13 @@ find_package(CURL REQUIRED)
 add_executable(${PROJECT_NAME} ${SOURCES})
 
 target_include_directories(${PROJECT_NAME} PRIVATE
-    Cities
-    RapidjsonAbstract
-    DataAbstract
-    CurlAbstract
     Data
     Curl
-    Rapidjison
+    DataAbstract
+    CurlAbstract
+    RapidjsonAbstract
+    Rapidjson
+    Cities
     ${CURL_INCLUDE_DIRS}
 )
 

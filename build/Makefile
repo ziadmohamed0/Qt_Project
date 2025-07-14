@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project
+CMAKE_SOURCE_DIR = /home/ziad/Ziad_WS/Qt_Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/build
+CMAKE_BINARY_DIR = /home/ziad/Ziad_WS/Qt_Project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/build/CMakeFiles /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziad/Ziad_WS/Qt_Project/build/CMakeFiles /home/ziad/Ziad_WS/Qt_Project/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziad/Ziad_WS/Software_Enginerring/02-C++/07-project/Qt_Project/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziad/Ziad_WS/Qt_Project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,29 +129,29 @@ MyProject/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/build
 .PHONY : MyProject/fast
 
-Cities/cities.o: Cities/cities.cpp.o
-.PHONY : Cities/cities.o
+Cities/Cities.o: Cities/Cities.cpp.o
+.PHONY : Cities/Cities.o
 
 # target to build an object file
-Cities/cities.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/Cities/cities.cpp.o
-.PHONY : Cities/cities.cpp.o
+Cities/Cities.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/Cities/Cities.cpp.o
+.PHONY : Cities/Cities.cpp.o
 
-Cities/cities.i: Cities/cities.cpp.i
-.PHONY : Cities/cities.i
+Cities/Cities.i: Cities/Cities.cpp.i
+.PHONY : Cities/Cities.i
 
 # target to preprocess a source file
-Cities/cities.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/Cities/cities.cpp.i
-.PHONY : Cities/cities.cpp.i
+Cities/Cities.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/Cities/Cities.cpp.i
+.PHONY : Cities/Cities.cpp.i
 
-Cities/cities.s: Cities/cities.cpp.s
-.PHONY : Cities/cities.s
+Cities/Cities.s: Cities/Cities.cpp.s
+.PHONY : Cities/Cities.s
 
 # target to generate assembly for a file
-Cities/cities.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/Cities/cities.cpp.s
-.PHONY : Cities/cities.cpp.s
+Cities/Cities.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/Cities/Cities.cpp.s
+.PHONY : Cities/Cities.cpp.s
 
 Curl/Curl.o: Curl/Curl.cpp.o
 .PHONY : Curl/Curl.o
@@ -201,29 +201,29 @@ Data/Data.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/Data/Data.cpp.s
 .PHONY : Data/Data.cpp.s
 
-Rapidjison/Rapidjison.o: Rapidjison/Rapidjison.cpp.o
-.PHONY : Rapidjison/Rapidjison.o
+Rapidjson/Rapidjson.o: Rapidjson/Rapidjson.cpp.o
+.PHONY : Rapidjson/Rapidjson.o
 
 # target to build an object file
-Rapidjison/Rapidjison.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/Rapidjison/Rapidjison.cpp.o
-.PHONY : Rapidjison/Rapidjison.cpp.o
+Rapidjson/Rapidjson.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/Rapidjson/Rapidjson.cpp.o
+.PHONY : Rapidjson/Rapidjson.cpp.o
 
-Rapidjison/Rapidjison.i: Rapidjison/Rapidjison.cpp.i
-.PHONY : Rapidjison/Rapidjison.i
+Rapidjson/Rapidjson.i: Rapidjson/Rapidjson.cpp.i
+.PHONY : Rapidjson/Rapidjson.i
 
 # target to preprocess a source file
-Rapidjison/Rapidjison.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/Rapidjison/Rapidjison.cpp.i
-.PHONY : Rapidjison/Rapidjison.cpp.i
+Rapidjson/Rapidjson.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/Rapidjson/Rapidjson.cpp.i
+.PHONY : Rapidjson/Rapidjson.cpp.i
 
-Rapidjison/Rapidjison.s: Rapidjison/Rapidjison.cpp.s
-.PHONY : Rapidjison/Rapidjison.s
+Rapidjson/Rapidjson.s: Rapidjson/Rapidjson.cpp.s
+.PHONY : Rapidjson/Rapidjson.s
 
 # target to generate assembly for a file
-Rapidjison/Rapidjison.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/Rapidjison/Rapidjison.cpp.s
-.PHONY : Rapidjison/Rapidjison.cpp.s
+Rapidjson/Rapidjson.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/Rapidjson/Rapidjson.cpp.s
+.PHONY : Rapidjson/Rapidjson.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -258,18 +258,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MyProject"
-	@echo "... Cities/cities.o"
-	@echo "... Cities/cities.i"
-	@echo "... Cities/cities.s"
+	@echo "... Cities/Cities.o"
+	@echo "... Cities/Cities.i"
+	@echo "... Cities/Cities.s"
 	@echo "... Curl/Curl.o"
 	@echo "... Curl/Curl.i"
 	@echo "... Curl/Curl.s"
 	@echo "... Data/Data.o"
 	@echo "... Data/Data.i"
 	@echo "... Data/Data.s"
-	@echo "... Rapidjison/Rapidjison.o"
-	@echo "... Rapidjison/Rapidjison.i"
-	@echo "... Rapidjison/Rapidjison.s"
+	@echo "... Rapidjson/Rapidjson.o"
+	@echo "... Rapidjson/Rapidjson.i"
+	@echo "... Rapidjson/Rapidjson.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
